@@ -206,6 +206,7 @@ GameObject:
   - component: {fileID: 1104847686752877820}
   - component: {fileID: 3400563925037390160}
   - component: {fileID: 6163088061869809504}
+  - component: {fileID: 6386646297574931483}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -261,6 +262,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1b78332df4de5b42ab4f3e13e753f82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _defaultActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _alertedActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _huntActions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern1Actions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern2Actions:
+    m_PersistentCalls:
+      m_Calls: []
+  _miscPattern3Actions:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &6163088061869809504
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -274,6 +293,23 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.75
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6386646297574931483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547037697469614208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e806c313ad49fa4194d7ed6c07f826b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _healthMax: 10
+  _healthCur: 10
+  _invincibilityFramesMax: 0
+  _invincibilityFramesCur: 0
+  _isDead: 0
 --- !u!1 &7427746695071617492
 GameObject:
   m_ObjectHideFlags: 0
